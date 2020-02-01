@@ -1,0 +1,15 @@
+<form  [formGroup]="registerForm" (ngSubmit)="metRegistrar()">
+    Nombre
+    <input type="text" name="nombre" formControlName="nombre" >
+    <br/>
+
+    correo
+    <input type="text" name="correo" formControlName="correo" >
+    <br/>
+
+    clave
+    <input type="text" name="clave" formControlName="clave" >
+    <br/>
+    <input type="submit" value="registar">
+
+</form>
